@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "": { "model": "packnite:block/raw_packnite" }
+    }
+}
