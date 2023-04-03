@@ -20,11 +20,39 @@ public class ExampleMod implements ModInitializer {
 
     public static final Block PACKNITE_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f));
 
+    public static final Block PACKNITE_ORE = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f));
+
+    public static final Block PACKNITE_DEEPSLATE_ORE = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f));
+
 
     public static final Item PACKNITE =
       Registry.register(Registries.ITEM, new Identifier(MOD_ID, "packnite"),
         new Item(new FabricItemSettings()));
- 
+
+    public static final Item RAW_PACKNITE =
+      Registry.register(Registries.ITEM, new Identifier(MOD_ID, "raw_packnite"),
+        new Item(new FabricItemSettings()));
+
+    public static final Item PACKNITE_SWORD =
+      Registry.register(Registries.ITEM, new Identifier(MOD_ID, "packnite_sword"),
+        new Item(new FabricItemSettings()));
+
+    public static final Item PACKNITE_PICKAXE =
+      Registry.register(Registries.ITEM, new Identifier(MOD_ID, "packnite_pickaxe"),
+        new Item(new FabricItemSettings()));
+
+    public static final Item PACKNITE_AXE =
+      Registry.register(Registries.ITEM, new Identifier(MOD_ID, "packnite_axe"),
+        new Item(new FabricItemSettings()));
+
+    public static final Item PACKNITE_SHOVEL =
+      Registry.register(Registries.ITEM, new Identifier(MOD_ID, "packnite_shovel"),
+        new Item(new FabricItemSettings()));
+
+    public static final Item PACKNITE_HOE =
+      Registry.register(Registries.ITEM, new Identifier(MOD_ID, "packnite_hoe"),
+        new Item(new FabricItemSettings()));
+
     @Override
     public void onInitialize() {
 

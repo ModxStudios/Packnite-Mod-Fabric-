@@ -1,6 +1,3 @@
 {
-    "parent": "block/cube_all",
-    "textures": {
-      "layer0": "lol:block/packnite_block"
-    }
+  "parent":"lol:block/packnite_block"
 }
