@@ -33,6 +33,10 @@ public class ExampleMod implements ModInitializer {
       Registry.register(Registries.ITEM, new Identifier(MOD_ID, "raw_packnite"),
         new Item(new FabricItemSettings()));
 
+    public static final Item PACKNITE_STICK =
+      Registry.register(Registries.ITEM, new Identifier(MOD_ID, "packnite_stick"),
+        new Item(new FabricItemSettings()));
+
     public static final Item PACKNITE_SWORD =
       Registry.register(Registries.ITEM, new Identifier(MOD_ID, "packnite_sword"),
         new Item(new FabricItemSettings()));
