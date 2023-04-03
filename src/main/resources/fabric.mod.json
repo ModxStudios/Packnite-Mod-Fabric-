@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "lol",
+	"version": "${version}",
+	"name": "lol",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/lol/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"test.lol.ExampleMod"
+		],
+		"client": [
+			"test.lol.ExampleModClient"
+		]
+	},
+	"mixins": [
+		"lol.mixins.json",
+		{
+			"config": "lol.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.18",
+		"minecraft": "~1.19.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
