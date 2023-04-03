@@ -1,4 +1,12 @@
 {
+    "item.lol.packnite_axe":"Packnite Axe",
+    "item.lol.packnite_pickaxe":"Packnite Pickaxe",
+    "item.lol.packnite_shovel":"Packnite Shovel",
+    "item.lol.packnite_sword":"Packnite Sword",
+    "item.lol.packnite_stick":"Packnite Stick",
     "item.lol.packnite":"Packnite",
-    "item.lol.packnite_block":"Packnite Block"
+    "item.lol.raw_packnite":"Raw Packnite",
+    "block.lol.packnite_block":"Packnite Block",
+    "block.lol.packnite_ore":"Packnite Ore",
+    "block.lol.packnite_deepslate_ore":"Deepslate Packnite Ore"
 }
