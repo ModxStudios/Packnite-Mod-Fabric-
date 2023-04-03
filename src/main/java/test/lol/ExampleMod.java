@@ -58,6 +58,10 @@ public class ExampleMod implements ModInitializer {
 
         Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "packnite_block"), PACKNITE_BLOCK);
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "packnite_block"), new BlockItem(PACKNITE_BLOCK, new FabricItemSettings()));
+        Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "packnite_ore"), PACKNITE_ORE);
+        Registry.register(Registries.ITEM, new Identifier(MOD_ID, "packnite_ore"), new BlockItem(PACKNITE_ORE, new FabricItemSettings()));
+        Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "packnite_block"), PACKNITE_BLOCK);
+        Registry.register(Registries.ITEM, new Identifier(MOD_ID, "packnite_deepslate_ore"), new BlockItem(PACKNITE_DEEPSLATE_ORE, new FabricItemSettings()));
 
 	}
 }
