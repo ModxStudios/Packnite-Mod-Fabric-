@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
+import net.minecraft.entity.damage.DamageScaling;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -47,7 +48,7 @@ public class ExampleMod implements ModInitializer {
 
     public static final Item PACKNITE_AXE =
       Registry.register(Registries.ITEM, new Identifier(MOD_ID, "packnite_axe"),
-        new Item(new FabricItemSettings()));
+        new Item(new FabricItemSettings()), new Item.Settings());
 
     public static final Item PACKNITE_SHOVEL =
       Registry.register(Registries.ITEM, new Identifier(MOD_ID, "packnite_shovel"),
