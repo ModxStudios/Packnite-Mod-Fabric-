@@ -48,7 +48,7 @@ public class ExampleMod implements ModInitializer {
 
     public static final Item PACKNITE_AXE =
       Registry.register(Registries.ITEM, new Identifier(MOD_ID, "packnite_axe"),
-        new Item(new FabricItemSettings()), new Item.Settings());
+        new Item(new FabricItemSettings()));
 
     public static final Item PACKNITE_SHOVEL =
       Registry.register(Registries.ITEM, new Identifier(MOD_ID, "packnite_shovel"),
