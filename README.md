@@ -8,7 +8,7 @@ Im thinking about Working on these versions of the mod.
 CurseForge: https://www.curseforge.com/minecraft/mc-mods/packnite
 ModRinth: (Soon)
 
-Anyways 
+if your looking for Forge Version then here -> https://github.com/ModxStudios/Packnite_Mod_Forge_1.19.4
 
 info
 
